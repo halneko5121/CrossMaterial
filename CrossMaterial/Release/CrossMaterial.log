@@ -1,0 +1,7 @@
+﻿  DirectInput.cpp
+e:\works\development\home\project\vocationalschool\crossmaterial\crossmaterial\directinput.cpp(386): warning C4244: '=': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+e:\works\development\home\project\vocationalschool\crossmaterial\crossmaterial\directinput.cpp(387): warning C4244: '=': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+  コード生成しています。
+  All 342 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  CrossMaterial.vcxproj -> E:\Works\development\home\project\VocationalSchool\CrossMaterial\Release\CrossMaterial.exe

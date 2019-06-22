@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ライブラリ">
+      <UniqueIdentifier>{bf1ecc87-965b-4453-91ad-e4ac4cba7707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="キャラクラス">
+      <UniqueIdentifier>{53d57be8-8b99-4d0d-bca2-1d5d2ac3e60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="キャラクラス\敵キャラ">
+      <UniqueIdentifier>{17ed322c-635c-4cdc-8d1c-fcc585e1a0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="キャラクラス\味方キャラ">
+      <UniqueIdentifier>{19675d99-49f9-4260-a9b2-fc0edfcf5609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス">
+      <UniqueIdentifier>{82e4ffa1-5f66-4599-a3c0-3cc68702b71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\Logo">
+      <UniqueIdentifier>{78a5cf95-3e8a-436b-bff5-4c5f11d938ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\Prologue">
+      <UniqueIdentifier>{a7b2eea6-4afa-4a90-a3eb-e9dff2f69c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\ADVパート">
+      <UniqueIdentifier>{1f256048-53fc-494b-928a-0661aabaffdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\Battleパート">
+      <UniqueIdentifier>{5258dc9e-b8f3-4640-9b97-daae8c6840cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\Battleパート\メイン">
+      <UniqueIdentifier>{8e18e818-f25d-4934-b187-b59244d01208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\GameOver">
+      <UniqueIdentifier>{240a3f1e-d98e-4daf-b37c-87149c453eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\Ending">
+      <UniqueIdentifier>{c4596c92-f46b-447f-af5a-efe9d8a9f922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンクラス\Title">
+      <UniqueIdentifier>{f8a22e32-3088-4f4b-8ae3-e8a815443d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理">
+      <UniqueIdentifier>{737db2d3-ad37-4fa5-a150-5cd970689387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理\キー関係">
+      <UniqueIdentifier>{1b2580ec-bf32-4361-9b4b-15bb9cac80c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理\ファイル関係">
+      <UniqueIdentifier>{a4a29f8b-241c-405e-af96-88095fda0707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理\シーン等">
+      <UniqueIdentifier>{88af372f-b261-46a3-a90f-6f70c09c48b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectFont.h">
+      <Filter>ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectGraphics.h">
+      <Filter>ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSound.h">
+      <Filter>ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaCommon.h">
+      <Filter>キャラクラス</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCommon.h">
+      <Filter>キャラクラス</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCommon.h">
+      <Filter>キャラクラス</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Boss.h">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Enemy1.h">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Enemy2.h">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Enemy3.h">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Enemy4.h">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Rio.h">
+      <Filter>キャラクラス\味方キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Van.h">
+      <Filter>キャラクラス\味方キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData_Zion.h">
+      <Filter>キャラクラス\味方キャラ</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>シーンクラス\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Prologue.h">
+      <Filter>シーンクラス\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="Adventure.h">
+      <Filter>シーンクラス\ADVパート</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate.h">
+      <Filter>シーンクラス\Battleパート</Filter>
+    </ClInclude>
+    <ClInclude Include="D_Battle.h">
+      <Filter>シーンクラス\Battleパート</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>シーンクラス\Battleパート</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>シーンクラス\Battleパート\メイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameover.h">
+      <Filter>シーンクラス\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>シーンクラス\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>シーンクラス\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>管理\キー関係</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineKeyState.h">
+      <Filter>管理\キー関係</Filter>
+    </ClInclude>
+    <ClInclude Include="FileControl.h">
+      <Filter>管理\ファイル関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>管理\ファイル関係</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDefine.h">
+      <Filter>管理\ファイル関係</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManage.h">
+      <Filter>管理\シーン等</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>管理\シーン等</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>管理\シーン等</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManage.h">
+      <Filter>管理\シーン等</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectFont.cpp">
+      <Filter>ライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectGraphics.cpp">
+      <Filter>ライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>ライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSound.cpp">
+      <Filter>ライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaCommon.cpp">
+      <Filter>キャラクラス</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCommon.cpp">
+      <Filter>キャラクラス</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCommon.cpp">
+      <Filter>キャラクラス</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Boss.cpp">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Enemy1.cpp">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Enemy2.cpp">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Enemy3.cpp">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Enemy4.cpp">
+      <Filter>キャラクラス\敵キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Rio.cpp">
+      <Filter>キャラクラス\味方キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Van.cpp">
+      <Filter>キャラクラス\味方キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData_Zion.cpp">
+      <Filter>キャラクラス\味方キャラ</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>シーンクラス\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Prologue.cpp">
+      <Filter>シーンクラス\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="Adventure.cpp">
+      <Filter>シーンクラス\ADVパート</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculate.cpp">
+      <Filter>シーンクラス\Battleパート</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>シーンクラス\Battleパート</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>シーンクラス\Battleパート\メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameover.cpp">
+      <Filter>シーンクラス\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>シーンクラス\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>シーンクラス\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>管理\キー関係</Filter>
+    </ClCompile>
+    <ClCompile Include="FileControl.cpp">
+      <Filter>管理\ファイル関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>管理\ファイル関係</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManage.cpp">
+      <Filter>管理\シーン等</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>管理\シーン等</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>管理\シーン等</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManage.cpp">
+      <Filter>管理\シーン等</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
